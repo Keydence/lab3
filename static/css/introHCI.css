@@ -9,6 +9,10 @@
 	color: #CC00AA;
 }
 
+.jumbotron p.active {
+     color: #1f6ddd;
+}
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
@@ -23,7 +27,7 @@ body {
 
 .jumbotron:after {
      content:"";
-     background: url("../images/lorempixel.jumbotron.jpeg");
+     background: url("http://lorempixel.com/1140/283");
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -33,10 +37,3 @@ body {
      z-index: -1;	
 }
 
-.jumbotron p {
-     color: #6e6e6e;
-}
-
-.project a {
-     text-align: center;
-}
